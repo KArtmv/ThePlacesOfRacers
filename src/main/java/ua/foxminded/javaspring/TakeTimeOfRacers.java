@@ -44,7 +44,6 @@ public class TakeTimeOfRacers {
 			}
 		}
 
-//		System.out.println(timeOfRacers);
 		return timeOfRacers;
 	}
 }

@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ua.foxminded.javaspring</groupId>
-	<artifactId>ua.foxminded.javaspring</artifactId>
+	<artifactId>ThePlacesOfRacers</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -32,7 +32,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>ua.foxminded.javaspring.ua.foxminded.javaspring</mainClass>
+							<mainClass>ua.foxminded.javaspring.ThePlacesOfRacers</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

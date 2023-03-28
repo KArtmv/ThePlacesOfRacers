@@ -13,9 +13,11 @@ public class RaceReportModifier {
 		Map<String, List<String>> timeOfLap = raceResultsSorter.raceResultsSorter();
 
 		CalculateMaxLengthNameAndTeam lengthOfString = new CalculateMaxLengthNameAndTeam();
-		List<Integer> integers = lengthOfString.calculateMaxLengthNameAndTeam(timeOfLap);
-		int lengthOfName = integers.get(0);
-		int lengthOfTeam = integers.get(1);
+		lengthOfString.calculateMaxLengthNameAndTeam(timeOfLap);
+		
+		LengthOfNameAndTeam lengthOfNameAndTeam = new LengthOfNameAndTeam();
+		int lengthOfName = lengthOfNameAndTeam.getLengthOfName();
+		int lengthOfTeam = lengthOfNameAndTeam.getLengthOfTeam();
 
 		Map<Integer, String> timesOfLap = new LinkedHashMap<>();
 		int i = 1;
